@@ -25,6 +25,9 @@ body {
     background-image: url('./imgs/ricardo-gomez-angel-RjBXz3rtdLw-unsplash.jpg');
     background-repeat: no-repeat; 
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo-div {
@@ -34,6 +37,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 70px;
+}
+
+.lic {
+    color: white;
+    text-align: center;
+    font-weight: 25;
+}
+
+.artist {
+    color: white;
+    text-decoration: underline;
+
 }
 
 .logo {
@@ -203,5 +219,17 @@ a {
         color: white;
         text-decoration: underline;
 
+    }
+
+    .password-checks {
+        position: absolute;
+        left: 65%;
+        display: block;
+        transition: 0.2s;
+    }
+    
+    .check {
+        margin: 10px;
+        font-weight: 200;
     }
 }
